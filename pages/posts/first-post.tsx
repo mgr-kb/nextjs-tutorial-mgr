@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import Head from 'next/head'
-import Image from 'next/image'
-import Layout from '../../components/layout'
+import Link from 'next/link';
+import Head from 'next/head';
+import Image from 'next/image';
+import Layout from '../../components/layout';
 
 export default function FirstPost() {
   return (
@@ -17,12 +17,12 @@ export default function FirstPost() {
       </h2>
       <div>
         <Image
-         src="/images/profile.jpg"
-         width={144}
-         height={144}
-         alt="Your Profile"
+          src="/images/profile.jpg"
+          width={144}
+          height={144}
+          alt="Your Profile"
         />
       </div>
     </Layout>
-  )
+  );
 }

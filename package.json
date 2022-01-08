@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "check-types": "tsc --noEmit",
-    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "lint": "eslint \"{pages,components,lib,posts}/**/*.{ts,tsx}\"",
     "lint:fix": "eslint \"./**/*.{ts,tsx}\" --fix",
     "format": "prettier --write .",
     "test-all": "npx yarn-run-all lint check-types format lint:fix"
